@@ -30,7 +30,12 @@ h2 {
   font-family: "Raleway", sans-serif;
 }
 
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   max-width: 60ch;
+  line-height: 1.5;
 }
