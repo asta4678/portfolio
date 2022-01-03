@@ -21,6 +21,16 @@ a:hover {
   color: #b16f38;
 }
 
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
 h2 {
   font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  max-width: 60ch;
 }
