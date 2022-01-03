@@ -1,0 +1,22 @@
+header {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: Hiragino Mincho ProN;
+  color: black;
+}
+
+a:hover {
+  color: pink;
+}
