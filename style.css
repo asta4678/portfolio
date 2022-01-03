@@ -18,5 +18,9 @@ a {
 }
 
 a:hover {
-  color: pink;
+  color: #b16f38;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
 }
