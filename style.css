@@ -29,6 +29,53 @@ a:hover {
   color: #b16f38;
 }
 
+/*********************** BURGER MENU ***********************/
+
+/* når burgermenuen er lukket */
+.hidden {
+  display: none;
+}
+
+#menu_knap {
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+
+#menu_burger {
+  list-style-type: none;
+  /*  list-style-type: none gør at der ikke er punkter ud fra teksten */
+  margin-top: 1.1rem;
+}
+
+#menu_burger a {
+  padding-right: 0.5rem;
+}
+
+#menu_burger li {
+  margin: 0.5rem;
+}
+
+/* når burgermenuen skal udskiftes til normal menu får den klassen på */
+.hide_burgermenu {
+  display: none;
+}
+
+#menu_knap:hover {
+  color: #f4a009;
+  cursor: pointer;
+}
+
+/*Når skærmen er under og max 550px skal burgermenuen vises.*/
+@media only screen and (max-width: 623px) {
+  .hide_burgermenu {
+    display: block;
+  }
+
+  .hide_menu {
+    display: none;
+  }
+}
+
 /* generel regl for at alt i main ikke står helt op af kanterne  */
 
 main {
