@@ -1,6 +1,10 @@
+/* generel regel for billeder  */
+
 img {
   max-width: 100%;
 }
+
+/* navigation */
 
 header {
   display: flex;
@@ -25,10 +29,14 @@ a:hover {
   color: #b16f38;
 }
 
+/* generel regl for at alt i main ikke står helt op af kanterne  */
+
 main {
   margin: 20px;
   padding: 20px;
 }
+
+/* fonte */
 
 h2 {
   font-family: "Raleway", sans-serif;
