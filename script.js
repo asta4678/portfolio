@@ -10,7 +10,7 @@ function toggleMenu() {
   console.log("toggle menu");
   document.querySelector("#menu_burger").classList.toggle("hidden");
 
-  //vi spørger om den indeholder klassen "hidden". let er den nye måde at lave variabler
+  //vi spørger om den indeholder klassen "hidden"
   let erSkjult = document
     .querySelector("#menu_burger")
     .classList.contains("hidden");
