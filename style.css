@@ -140,3 +140,18 @@ p {
     justify-content: space-between;
   }
 }
+
+/* responsiv siden  */
+
+@media (min-width: 900px) {
+  #responsiv_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
