@@ -92,6 +92,21 @@ h3 {
 
 p {
   font-family: "Roboto", sans-serif;
-  max-width: 60ch;
+  max-width: 65ch;
   line-height: 1.5;
+}
+
+/* redesign siden  */
+
+@media (min-width: 900px) {
+  #redesign_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
