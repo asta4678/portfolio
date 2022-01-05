@@ -187,3 +187,18 @@ p {
     justify-content: space-between;
   }
 }
+
+/* om mig */
+
+@media (min-width: 900px) {
+  #ommig_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
