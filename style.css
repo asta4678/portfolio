@@ -126,6 +126,8 @@ p {
   }
 }
 
+/* spil / temaopgave siden  */
+
 @media (min-width: 900px) {
   #spil_section .section_wrapper {
     display: grid;
