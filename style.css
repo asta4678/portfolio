@@ -116,7 +116,7 @@ p {
 @media (min-width: 900px) {
   #prototype_section .section_wrapper {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2fr 2fr;
     gap: 20px;
   }
   .column {
@@ -153,5 +153,24 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+}
+
+/* pilotsiden  */
+
+@media (min-width: 900px) {
+  #pilot_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  img {
+    margin-top: 15px;
   }
 }
