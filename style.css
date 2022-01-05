@@ -96,6 +96,16 @@ p {
   line-height: 1.5;
 }
 
+/* footer */
+
+footer {
+  padding: 10px;
+}
+
+footer img {
+  max-width: 50px;
+}
+
 /* redesign siden  */
 
 @media (min-width: 900px) {
