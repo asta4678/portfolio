@@ -174,3 +174,16 @@ p {
     margin-top: 15px;
   }
 }
+
+@media (min-width: 900px) {
+  #pitch_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
