@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #e8dfd0;
+  color: #333333;
 }
 
 /* BURGER MENU */
@@ -48,7 +48,7 @@ a:hover {
 }
 
 #menu_knap:hover {
-  color: #e8dfd0;
+  color: #333333;
 }
 
 /*BURGER MENU VISES INDEN FOR DENNE MEDIA QUERIE*/
