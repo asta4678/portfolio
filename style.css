@@ -1,10 +1,4 @@
-/* generel regel for billeder  */
-
-img {
-  max-width: 100%;
-}
-
-/* navigation */
+/* NAVIGATION */
 
 header {
   display: flex;
@@ -26,43 +20,38 @@ a {
 }
 
 a:hover {
-  color: #b16f38;
+  color: #e8dfd0;
 }
 
-/* burger menu */
+/* BURGER MENU */
 
-/* når burgermenuen er lukket */
+/* LUKKET BURGERMENU */
 .hidden {
   display: none;
 }
 
 #menu_knap {
   display: inline-block;
-  padding-right: 0.5rem;
 }
 
 #menu_burger {
   list-style-type: none;
 }
 
-#menu_burger a {
-  padding-right: 0.5rem;
-}
-
 #menu_burger li {
   margin: 0.5rem;
 }
 
-/* når burgermenuen skal udskiftes til normal menu får den klassen på */
+/* UDSKIFT BURGER MENU TIL NORMAL MENU */
 .hide_burgermenu {
   display: none;
 }
 
 #menu_knap:hover {
-  color: #b16f38;
+  color: #e8dfd0;
 }
 
-/*Når skærmen er under og max 550px skal burgermenuen vises.*/
+/*BURGER MENU VISES INDEN FOR DENNE MEDIA QUERIE*/
 @media only screen and (max-width: 550px) {
   .hide_burgermenu {
     display: block;
@@ -73,14 +62,20 @@ a:hover {
   }
 }
 
-/* generel regl for at alt i main ikke står helt op af kanterne  */
+/* MAIN  */
 
 main {
   margin: 20px;
   padding: 20px;
 }
 
-/* fonte */
+/* BILLEDER  */
+
+img {
+  max-width: 100%;
+}
+
+/* FONTE */
 
 h2 {
   font-family: "Raleway", sans-serif;
@@ -96,130 +91,7 @@ p {
   line-height: 1.5;
 }
 
-/* footer */
-
-footer {
-  margin: 20px;
-}
-
-footer img {
-  max-width: 25px;
-  padding: 10px;
-}
-
-#footer_section {
-  display: flex;
-  justify-content: center;
-}
-
-/* redesign siden  */
-
-@media (min-width: 900px) {
-  #redesign_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-    gap: 20px;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
-
-/* prototype siden  */
-
-@media (min-width: 900px) {
-  #prototype_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 20px;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
-
-/* spil / temaopgave siden  */
-
-@media (min-width: 900px) {
-  #spil_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 20px;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
-
-/* responsiv siden  */
-
-@media (min-width: 900px) {
-  #responsiv_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
-
-/* pilotsiden  */
-
-@media (min-width: 900px) {
-  #pilot_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 20px;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  img {
-    margin-top: 15px;
-  }
-}
-
-@media (min-width: 900px) {
-  #pitch_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 20px;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
-
-/* om mig */
-
-@media (min-width: 900px) {
-  #ommig_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
-
-/* portfolie  */
+/* PORTFOLIO - SIDEN MED ALLE IMAC SKÆRMENE */
 
 @media (max-width: 599px) {
   #portfolie_section {
@@ -252,7 +124,7 @@ footer img {
 @media (min-width: 1100px) {
   #portfolie_section {
     display: grid;
-    grid-template-columns: repeat(3, 352px);
+    grid-template-columns: repeat(3, 400px);
     grid-auto-rows: 270px;
   }
 
@@ -261,4 +133,129 @@ footer img {
     height: 100%;
     width: 100%;
   }
+}
+
+/* RESPONSIV / KEA DISTORTION */
+
+@media (min-width: 900px) {
+  #responsiv_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* PROTOTYPE / BANANAWEAR  */
+
+@media (min-width: 900px) {
+  #prototype_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* PITCH / PITCH TIL BANANAWEAR  */
+
+@media (min-width: 900px) {
+  #pitch_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* TEMAOPGAVE / PAW NINJA  */
+
+@media (min-width: 900px) {
+  #spil_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* PILOTPROJEKT / ASTRID SPECHT SEEBERG  */
+
+@media (min-width: 900px) {
+  #pilot_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  img {
+    margin-top: 15px;
+  }
+}
+
+/* REDESIGN / BLOND BAGERI  */
+
+@media (min-width: 900px) {
+  #redesign_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* OM MIG */
+
+@media (min-width: 900px) {
+  #ommig_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  margin: 20px;
+}
+
+footer img {
+  max-width: 25px;
+  padding: 10px;
+}
+
+#footer_section {
+  display: flex;
+  justify-content: center;
 }
