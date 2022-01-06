@@ -99,11 +99,17 @@ p {
 /* footer */
 
 footer {
-  padding: 10px;
+  margin: 20px;
 }
 
 footer img {
-  max-width: 50px;
+  max-width: 25px;
+  padding: 10px;
+}
+
+#footer_section {
+  display: flex;
+  justify-content: center;
 }
 
 /* redesign siden  */
