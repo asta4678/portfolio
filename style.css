@@ -79,16 +79,19 @@ img {
 
 h2 {
   font-family: "Raleway", sans-serif;
+  /* color: #d9994f; */
 }
 
 h3 {
   font-family: "Raleway", sans-serif;
+  /* color: #d9994f; */
 }
 
 p {
   font-family: "Roboto", sans-serif;
   max-width: 65ch;
   line-height: 1.5;
+  /* color: #ffffff; */
 }
 
 /* PORTFOLIO - SIDEN MED ALLE IMAC SKÆRMENE */
