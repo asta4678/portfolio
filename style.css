@@ -99,6 +99,30 @@ p {
 
 /* PORTFOLIO - SIDEN MED ALLE IMAC SKÆRMENE */
 
+.image1:hover {
+  opacity: 0.5;
+}
+
+.image2:hover {
+  opacity: 0.5;
+}
+
+.image3:hover {
+  opacity: 0.5;
+}
+
+.image4:hover {
+  opacity: 0.5;
+}
+
+.image5:hover {
+  opacity: 0.5;
+}
+
+.image6:hover {
+  opacity: 0.5;
+}
+
 @media (max-width: 599px) {
   #portfolio_section {
     display: grid;
