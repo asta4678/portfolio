@@ -99,6 +99,8 @@ p {
 
 /* PORTFOLIO - SIDEN MED ALLE IMAC SKÆRMENE */
 
+/* HOVER PÅ IMAC BILLEDERNE  */
+
 .image1:hover {
   opacity: 0.5;
 }
