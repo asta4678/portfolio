@@ -116,7 +116,7 @@ p {
   #forside_section .section_wrapper {
     width: 100%;
     height: 110vh;
-    background-image: url(billeder/lilleforside.png);
+    background-image: url(billeder/forsidelillerigtigt.png);
     background-size: cover;
   }
 }
@@ -125,7 +125,7 @@ p {
   #forside_section .section_wrapper {
     width: 100%;
     height: 110vh;
-    background-image: url(billeder/storforside.png);
+    background-image: url(billeder/forsidestorrigtig.png);
     background-size: cover;
   }
 }
