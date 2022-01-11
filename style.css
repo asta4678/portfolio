@@ -72,7 +72,7 @@ a:hover {
 /* MAIN  */
 
 main {
-  max-width: 1400px;
+  /* max-width: 1200px; */
   margin: 20px;
   padding: 20px;
 }
@@ -109,6 +109,25 @@ p {
   max-width: 65ch;
   line-height: 1.5;
   color: #ffffff;
+}
+
+/* FORSIDE / INDEX */
+@media (max-width: 800px) {
+  #forside_section .section_wrapper {
+    width: 100%;
+    height: 110vh;
+    background-image: url(billeder/lilleforside.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 801px) {
+  #forside_section .section_wrapper {
+    width: 100%;
+    height: 110vh;
+    background-image: url(billeder/storforside.png);
+    background-size: cover;
+  }
 }
 
 /* PORTFOLIO - SIDEN MED ALLE IMAC SKÆRMENE */
@@ -294,7 +313,6 @@ p {
 footer {
   margin: 20px;
   background-color: #491f2d;
-  max-width: 1400px;
 }
 
 footer img {
