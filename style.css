@@ -23,6 +23,12 @@ a:hover {
   color: #ffffff;
 }
 
+@media (max-width: 550px) {
+  a {
+    font-size: 0.9rem;
+  }
+}
+
 /* BURGER MENU */
 
 /* LUKKET BURGERMENU */
