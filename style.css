@@ -72,7 +72,7 @@ a:hover {
 /* MAIN  */
 
 main {
-  /* max-width: 1200px; */
+  max-width: 1400px;
   margin: 20px;
   padding: 20px;
 }
@@ -313,6 +313,7 @@ p {
 footer {
   margin: 20px;
   background-color: #491f2d;
+  max-width: 1440px;
 }
 
 footer img {
