@@ -291,6 +291,21 @@ p {
   }
 }
 
+/* PORTFOLIO DOKUMENTATIONS SIDE  */
+
+@media (min-width: 900px) {
+  #portfoliodoku_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 /* OM MIG */
 
 @media (min-width: 900px) {

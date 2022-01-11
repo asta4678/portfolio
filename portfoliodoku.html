@@ -1,12 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="favicon/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="noindex" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="font"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="font"
+    />
+  </head>
+  <body style="background-color: #340515">
+    <header id="menu">
+      <nav class="hide_menu">
+        <ul class="links">
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="ommig.html">OM MIG</a></li>
+        </ul>
+      </nav>
+
+      <nav class="hide_burgermenu">
+        <div id="menu_knap">☰</div>
+        <ul id="menu_burger" class="hidden">
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="ommig.html">OM MIG</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main style="background-color: #491f2d">
+      <h2>Portfolio sitet</h2>
+      <section id="portfoliodoku_section">
+        <img src="billeder/moodboard_v2.png" alt="" />
+        <img src="billeder/styletile_v2.png" alt="" />
+        <div class="section_wrapper">
+          <div class="col">
+            <h3>Opgaven</h3>
+            <p>
+              Afslutningsvis har jeg skulle udarbejde et portfolio til at
+              præsentere semesterets projekter. Opgaven skulle kodes med HTML,
+              CSS og JAVASCRIPT.
+            </p>
+          </div>
+          <div class="col">
+            <h3>Proces</h3>
+            <p>
+              Det første redskab jeg brugte til inspiration og ideudvikling var
+              et moodboard, for jeg ville gerne skabe et roligt og overskueligt
+              site på trods af at der skulle inkorporeres mange forskellige
+              opgaver. Jeg valgte at løse det vha. af at præsentere opgaverne på
+              iMac's for at hver opgave er indrammet og derved bruge
+              gestaltloven som lukkethed der hjælper med at skabe ro og
+              overblik.
+              <br />
+              <br />
+              Dernæst udarbejde jeg mit StyleTile til at skabe et overblik og de
+              stilistiske beslutninger. På StyleTilen kan man se mit farvevalg
+              som bl.a. er to bordeaux røde monokromatiske farver, hvor jeg har
+              valgt at bruge den ene farve i alt margin og padding på
+              hjemmesiden for at skabe en smule dybde. Derudover er der den
+              orange som skaber kontrast og blikfang. Ligeledes er der i mit
+              Styletile vist de to Google Fonts der bliver brugt på siden, begge
+              fonte er let læselige og det er tydeligt hvilken af dem der er
+              overskrift og det hjælper med hierarkiet på siden.
+              <br />
+              <br />
+              Efter disse processer gik jeg i gang med at skitsere hvordan jeg
+              kunne tænkte mig at hjemmesiden skulle se ud på de forskellige
+              sider. Efter dette kunne jeg lave en wireframe og afslutningsvis
+              lave layoutdiagrammer der gør det meget nemmere at holde overblik
+              fordi man har en guideline når man påbegynder kodningen.
+            </p>
+          </div>
+          <div class="col">
+            <h3>Overvejelserne på portfolio sitet</h3>
+            <p>
+              For at skabe den bedste brugeroplevelse (UX) samt
+              brugergrænseflade (UI), har jeg inkorporeret disse elementer;
+              <br />
+              <br />
+              En høj farvekontrast mellem den hvide og bordeaux farve.
+              <br />
+              <br />
+              Maksimalt 65 tegn pr linje vha. "p { max-width: 65ch; }" i CSS.
+              <br />
+              <br />
+              At bryde teksten op så den står i mindre afsnit og har nogle
+              underoverskrifter (H3'ere) der skaber et hurtigt overblik.
+              <br />
+              <br />
+              At have hover på alle klikbare elementer så man ikke er i tvivl om
+              hvorvidt man kan klikke videre.
+              <br />
+              <br />
+              At have en burgermenu når skærmen er under 550 px - denne er lavet
+              vha. Javascript.
+            </p>
+          </div>
+          <div class="col">
+            <img src="billeder/layout1.png" alt="" />
+          </div>
+          <div class="col">
+            <img src="billeder/layout2.png" alt="" />
+          </div>
+          <div class="col">
+            <img src="billeder/layoutdiagram.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="footer_section">
+        <a href="https://www.linkedin.com/in/asta-marie-kristensen-3b9b02180/">
+          <img src="billeder/linkedin_v3.png" alt="" />
+        </a>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
